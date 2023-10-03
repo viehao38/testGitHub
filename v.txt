@@ -9,8 +9,8 @@ class MyIndex extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: const MyTopNav(index: 0),
       appBar: AppBar(
-        title: const Text("DEMO"),
-        backgroundColor: Colors.blue,
+        title: const Text("DEMO")
+        backgroundColor: Colors.red,
       ),
     );
   }
